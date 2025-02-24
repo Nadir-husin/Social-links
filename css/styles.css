@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    height: 100vh;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.card{
+    background-color: rgba(255, 253, 253, 0.096);
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 15px 10px 20px rgba(132, 160, 90, 0.3);
+    padding: 30px 0px;
+    font-family: Verdana, sans-serif;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 8px 3px 15px rgba(135, 170, 81, 0.3); 
+}
+.photo h2{
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+}
+.card p{
+    color: rgba(194, 194, 194, 0.7);
+    padding: 10px 0px;
+    font-size: 15px;
+
+}
+.photo p{
+    color: rgba(193, 238, 120, 0.952);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+button{
+    width: 90%;
+    height: 60px;
+    margin: 9px 0px;
+    background-color: rgb(49, 49, 49);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: rgba(142, 175, 89, 0.952);
+    color: black;
+    transform: scale(1.1,1.1);
+}
+@media only screen and (max-width: 600px)
+{
+    .card{
+        width: 400px;
+
+    }
+    .photo h2{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .card p{
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    button{
+        width: 90%;
+        height: 45px;
+        margin: 5px 0px;
+        font-size: 15px;
+    }
+
+}
